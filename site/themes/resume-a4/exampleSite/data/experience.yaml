@@ -1,0 +1,36 @@
+- company: Company 1
+  roles:
+    - role: Data Scientist
+      details: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+        Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
+        Nam suscipit nisi a bibendum lacinia. Donec aliquet, nibh dignissim placerat efficit
+      date: 10.2020 -  Present
+
+- company: Company 2
+  page: 1
+  roles: 
+    - role: Senior Software Developer
+      tools: SQL, Flink, Kafka
+      details: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+        Aenean nec volutpat arcu. Maecenas quis tempus risus.
+      date: 06.2019 - 10.2020
+    
+    - role: Junior Software Developer
+      tools: HTML, PHP, CSS
+      date: 10.2018 - 06.2019
+      details: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+        Aenean nec volutpat arcu. Maecenas quis tempus risus.
+
+- company: Company 1
+  page: 2
+  roles:
+    - role: Junior Software Developer
+      tools: C#, Python, Postgresql
+      details: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+        Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
+        Nam suscipit nisi a bibendum lacinia. Donec aliquet, nibh dignissim placerat efficit
+      date: 2017 - 2018

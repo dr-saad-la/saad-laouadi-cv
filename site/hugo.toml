@@ -1,0 +1,6 @@
+baseURL = 'https://example.org/Saad-Laouadi-CV'
+languageCode = 'en-us'
+title = 'Saad Laouadi CV'
+theme = 'resume-a4'
+
+
