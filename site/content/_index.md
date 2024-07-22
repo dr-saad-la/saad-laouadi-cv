@@ -1,9 +1,9 @@
 ---
 name: "Saad Laouadi"
-title: "Software Engineer"
+title: "Data Scientist"
 avatar: "images/avatar.jpg"
-email: "saad@example.com"
-phone: "+1 234 567 890"
+email: "dr.saad.laouadi@gmail.com"
+phone: "***********"
 website: "https://saad.example.com"
 address: "1234 Main Street, Anytown, USA"
 linkedin: "saad-laouadi"

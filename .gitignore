@@ -1,0 +1,6 @@
+# System file
+.DS_Store
+
+
+# private files
+deploy.sh
