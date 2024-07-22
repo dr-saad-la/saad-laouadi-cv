@@ -11,7 +11,7 @@ about:
       url: https://gitlab.com/dr-saad-la/
       icon: fab fa-gitlab
     - title: dr-saad-la
-      url: https://github.com/dr-saad-la
+      url: https://dr-saad-la.github.io/
       icon: fab fa-github
   details: |
     
@@ -30,11 +30,14 @@ skills:
       - Apache Spark - Flink - NiFi 
       - Apache Kafka
 
-  - groupName: Programming & Systems
+  - groupName: Programming Languages
     list:
       - C/C++ - Rust - BASH - Java -  Scala - Haskell
       - Git - Docker 
-      - Linux - Mac OS 
+  - groupName: Systems
+    list:
+        - Mac OS
+        - Linux (Debian, Fedora)
 
 interests:
   - Data Science
