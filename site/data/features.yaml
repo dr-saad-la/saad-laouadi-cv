@@ -18,6 +18,13 @@ about:
 
 
 skills:
+  - groupName: Machine Learning and Deep Learning
+    list:
+        - Supervised learning
+        - Unsupervised learning
+        - Deep learning
+        - Image processing
+        
   - groupName: Databases & Visualization
     list:
       - Grafana - Kibana 
