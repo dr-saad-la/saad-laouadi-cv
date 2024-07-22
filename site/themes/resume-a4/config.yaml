@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: "en-us"
-title: "Resume | MERT BAKIR"
+title: "Resume | Saad Laouadi"
 disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
 theme: "resume-a4"
 
@@ -103,15 +103,14 @@ params:
         
   footer:
     show: true
-    credits: true
+    credits: false
     footnote: >-
-      You can print this resume in A4 size or save as pdf. | Last update on 2020-09-01.
     links:
       - prefix: Contact me on
         title: Linkedin
-        url: 'https://linkedin.com/in/mertbakir/'
+        url: 'https://linkedin.com/in/saad-laouadi/'
         icon: fab fa-linkedin
       - prefix: Check out my
         title: Website
-        url: 'https://mertbakir.gitlab.io/about/'
+        url: 'https://dr-saad-la.gitlab.io/about/'
         icon: fas fa-globe

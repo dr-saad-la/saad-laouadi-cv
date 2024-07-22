@@ -12,7 +12,7 @@ git add .
 git commit -m "Deploy to GitHub Pages"
 
 # Force push to the gh-pages branch
-git push --force "https://github.com/dr-saad-la/SaadCV.git" main:gh-pages
+git push --force "https://github.com/dr-saad-la/saad-laouadi-cv.git" main:gh-pages
 
 cd ..
 rm -rf public

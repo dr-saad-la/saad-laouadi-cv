@@ -1,15 +1,15 @@
-- name: Msc. Industrial Engineering
-  university: Yildiz Technical University
-  location: Istanbul, TR
-  more: with Thesis # Optional field, if you want to add a non-standard line.
-  link: https://... # Optional field, include a link to your project.
+- name: PhD in Economics
+  university: Blida University
+  location: Blida, DZD
+  more: with Thesis 
+  link: https://... 
   date: 2019- 2021
   gpa: 3.71 / 4.00
   details: >
     Include details if you like to... 
 
-- name: Bsc. Industrial Engineering
-  university: Gazi University
-  location: Ankara, TR
-  date: 2013 - 2017
+- name: Master degree
+  university: Saad Dahlab university
+  location: Blida, Algera
+  date: 2010 - 2012
   gpa : 3.35 / 4.00

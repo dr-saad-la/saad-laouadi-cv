@@ -1,17 +1,17 @@
 about:
   name: Dr. Saad Laouadi
-  tagline: Data Scientist
-  phone: "5070*4****"
-  email: yourmail@yourdomain
+  tagline: Data Scientist | Econometrician | Author | Programmer | Researcher
+  phone: "********"
+  email: dr.saad.laouadi@gmail.com
   links:
-    - title: /in/mertbakir
-      url: https://tr.linkedin.com/in/mertbakir
+    - title: /in/dr-saad-la
+      url: https://tr.linkedin.com/in/saad-laouadi
       icon: fab fa-linkedin
-    - title: mertbakir
-      url: https://gitlab.com/mertbakir/
+    - title: dr-saad-la
+      url: https://gitlab.com/dr-saad-la/
       icon: fab fa-gitlab
-    - title: mertbakir
-      url: https://github.com/mertbakir
+    - title: dr-saad-la
+      url: https://github.com/dr-saad-la
       icon: fab fa-github
   details: |
     
@@ -20,27 +20,31 @@ about:
 skills:
   - groupName: Databases & Visualization
     list:
-      - Grafana - Kibana - PowerBI
+      - Grafana - Kibana 
       - InfluxDB - TICK Stack
 
   - groupName: Data Analysis & Analytics
     list:
-      - Python - R - SQL
-      - Excel - Minitab - SPSS
-      - GAMS - PuLP - OR Tools
+      - Python - R - SAS - Julia
+      - STATA
+      - Apache Spark - Flink - NiFi 
+      - Apache Kafka
 
   - groupName: Programming & Systems
     list:
-      - C# - Git - Docker - NGINX
-      - Linux - CentOS RHEL
+      - C/C++ - Rust - BASH - Java -  Scala - Haskell
+      - Git - Docker 
+      - Linux - Mac OS 
 
 interests:
   - Data Science
   - AI Applications
-  - Optimization Problems
+  - GIS and Remote Sensing Applications
+  - Image processing
+
 
 languages:
-  - name: Turkish
+  - name: Arabic
     level: Native
 
   - name: English
@@ -51,15 +55,15 @@ languages:
 
 # This will use the default widget: "details-list"
 awards:
-  - title: "Tübitak - Graduation Project"
-    date: "2017"
-    subtitle: "A Decision Support System for 3D Cutting Problem"
+  - title: ""
+    date: ""
+    subtitle: " "
     #details: |
     #   - add more here if you like to.
     #   - or just comment out/delete the field.
     links:
       - title: example
-        url: https://mertbakir.gitlab.io
+        url: 
         icon: fas fa-bolt
         prefix: "This is an " # use quotation marks if you want to pass the tailing space.
       - title: second link.
