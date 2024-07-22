@@ -16,7 +16,6 @@ about:
   details: |
     
 
-
 skills:
   - groupName: Machine Learning and Deep Learning
     list:
@@ -25,6 +24,7 @@ skills:
         - Deep learning
         - Image processing
         - Time Series analysis
+        - Anomaly Detection
   - groupName: Databases & Visualization
     list:
       - Grafana - Kibana 
