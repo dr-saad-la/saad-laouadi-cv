@@ -1,0 +1,6 @@
+{{ $markdown := . | markdownify }}
+{{ if or (strings.Contains $markdown "<p>") (strings.Contains $markdown "<li>") }}
+	{{ $markdown }}
+{{ else }}
+	<p>{{ $markdown }}</p>
+{{ end }}

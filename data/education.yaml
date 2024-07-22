@@ -1,0 +1,14 @@
+- name: PhD in Economics
+  university: LOUNICI ALI
+  location: Blida, DZD
+  # more: with Thesis 
+  # link: https://... 
+  date: 2013- 2017
+  # gpa: 3.71 / 4.00
+  # details: >
+    # Include details if you like to... 
+
+- name: Master degree
+  university: Saad Dahlab university
+  location: Blida, Algera
+  date: 2010 - 2012

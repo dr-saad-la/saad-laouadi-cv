@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}"><!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	{{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+	{{ if .Site.Params.useFontAwesome }}
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+	{{ end }}
+	{{ range .Site.Params.css }}
+	{{ $style := resources.Get (printf "css/%s" .) }}
+		{{ if $style }}
+		<link rel="stylesheet" href="{{ ($style | toCSS | minify | fingerprint).RelPermalink }}" />
+		{{ end }}
+	{{ end }}
+	<title itemprop="name">{{ .Site.Title }}</title>
+</head>
+
+<body>
+	{{ $.Scratch.Set "index" 0 }}
+	{{ range .Site.Params.pages }}
+	{{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
+	<main class="paper">
+		<div class="grid">
+			<header class="flex-row">
+				{{ partial "header" (dict "Header" $.Site.Params.header "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+			</header>
+
+			{{- if eq ($.Scratch.Get "index") 1 -}}
+			<div class="left-column">
+				{{ range .features }}
+					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "Params" $.Site.Params "Page" ($.Scratch.Get "index")) }}
+				{{ end }}
+			</div>
+
+			<div class="right-column">
+				{{ range $.Site.Params.side }}
+					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "Params" $.Site.Params "Page" ($.Scratch.Get "index")) }}
+				{{ end }}
+			</div>
+			{{- else -}}
+			<div class="single-column">
+				{{- range .features -}}
+					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "Params" $.Site.Params "Page" ($.Scratch.Get "index")) }}
+				{{- end -}}
+			</div>
+			{{- end -}}
+		</div>
+	</main>
+	{{ end }}
+
+	{{ if .Site.Params.footer.show }}
+	<footer>
+		{{ partial "footer" (dict "Footer" .Site.Params.footer "useFontAwesome" .Site.Params.useFontAwesome) }}
+	</footer>
+	{{ end }}
+</body>
+</html>
