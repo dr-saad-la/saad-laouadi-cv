@@ -24,7 +24,7 @@ skills:
         - Unsupervised learning
         - Deep learning
         - Image processing
-        
+        - Time Series analysis
   - groupName: Databases & Visualization
     list:
       - Grafana - Kibana 
