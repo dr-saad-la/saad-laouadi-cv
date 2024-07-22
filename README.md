@@ -12,6 +12,8 @@ This CV includes the following sections:
 - **Skills**: Technical skills and proficiencies.
 - **Projects**: Key projects and contributions.
 - **Publications**: Research papers and articles.
+- **Courses**: It lists the courses I teach.
+- **Upcomming Projects**: Projects I am planning to do.
 
 ## Access
 
