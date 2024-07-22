@@ -1,0 +1,93 @@
+about:
+  name: Dr. Saad Laouadi
+  tagline: Data Scientist | Econometrician | Author | Programmer | Researcher
+  phone: "********"
+  email: dr.saad.laouadi@gmail.com
+  links:
+    - title: /in/dr-saad-la
+      url: https://tr.linkedin.com/in/saad-laouadi
+      icon: fab fa-linkedin
+    - title: dr-saad-la
+      url: https://gitlab.com/dr-saad-la/
+      icon: fab fa-gitlab
+    - title: dr-saad-la
+      url: https://dr-saad-la.github.io/
+      icon: fab fa-github
+  details: |
+    
+
+skills:
+  - groupName: Machine Learning and Deep Learning
+    list:
+        - Supervised learning
+        - Unsupervised learning
+        - Deep learning
+        - Image processing
+        - Time Series analysis
+        - Anomaly Detection
+  - groupName: Databases & Visualization
+    list:
+      - Grafana - Kibana 
+      - InfluxDB - TICK Stack
+
+  - groupName: Data Analysis & Analytics
+    list:
+      - Python - R - SAS - Julia
+      - STATA
+      - Apache Spark - Flink - NiFi 
+      - Apache Kafka
+
+  - groupName: Programming Languages
+    list:
+      - C/C++ - Rust - BASH - Java -  Scala - Haskell
+      - Git - Docker 
+  - groupName: Systems
+    list:
+        - Mac OS
+        - Linux (Debian, Fedora)
+
+interests:
+  - Data Science
+  - AI Applications
+  - GIS and Remote Sensing Applications
+  - Image processing
+
+
+languages:
+  - name: Arabic
+    level: Native
+
+  - name: English
+    level: Professional
+    certificates:
+      - "YDS: 86.25 - 2018"
+      - "TOEFL: 109 - 2021"
+
+# This will use the default widget: "details-list"
+awards:
+  - title: ""
+    date: ""
+    subtitle: " "
+    #details: |
+    #   - add more here if you like to.
+    #   - or just comment out/delete the field.
+    links:
+      - title: example
+        url: 
+        icon: fas fa-bolt
+        prefix: "This is an " # use quotation marks if you want to pass the tailing space.
+      - title: second link.
+        url: https://esdfdsfdsf
+        icon: "-" # you can get rid of the icon by entering dummy text
+        prefix: "omg"
+
+certificates:
+  - title: "Supervised Learning: Regression"
+    subtitle: Coursera
+    date: "2020"
+    link: https://xkcd.com/605/ # This link will be on title level.
+
+  - title: "Supervised Learning: Classification"
+    subtitle: Coursera
+    date: "2020"
+    link: https://xkcd.com/388/
